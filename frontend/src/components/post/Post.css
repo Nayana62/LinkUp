@@ -1,0 +1,56 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  background-color: var(--cardColor);
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.Post > div {
+  display: flex;
+}
+
+.size-4 {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+.Post > img {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-top: 5px;
+}
+
+.postReact {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.post-user {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 10px;
+  width: 100%;
+  height: 20px;
+}
+
+.post-user p {
+  display: flex;
+  gap: 5px;
+}
+
+.post-user img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}

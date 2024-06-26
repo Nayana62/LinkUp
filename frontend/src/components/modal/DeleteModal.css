@@ -1,0 +1,51 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  max-width: 700px;
+  padding: 30px 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  outline: none;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.modal-heading {
+  font-size: large;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-btn {
+  font-size: medium;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  padding: 10px 15px;
+  cursor: pointer;
+}

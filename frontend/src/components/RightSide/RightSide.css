@@ -1,0 +1,43 @@
+.RightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.navIcons {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  width: 20rem;
+  align-self: flex-end;
+}
+
+.navIcons > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navIcons svg{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.navIcons > a > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.r-button {
+  height: 3rem;
+  width: 80%;
+  align-self: center;
+}
+
+.outline{
+    color: black;
+    font-weight: bolder;
+}
+
+.solid{
+    color: var(--orange);
+}
